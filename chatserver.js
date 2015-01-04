@@ -19,4 +19,4 @@ io.sockets.on('connection', function(socket) {
 	});
 });
 
-console.log('Server running at Port:' + conf.port + '/');
+console.log('Server running at Port: ' + conf.port);
