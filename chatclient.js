@@ -26,7 +26,7 @@ $(document).ready(function(){
   });
 });
 
-function getTime(data) {                              // get Time in Format HH:MM:SS
+function getTime(data) {                              // get Time in the Format HH:MM:SS
 var date = new Date(data.time);
 return date.getHours().toString().lpad("0",2) + ":" +
        date.getMinutes().toString().lpad("0",2) + ":" +
