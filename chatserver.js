@@ -16,7 +16,7 @@ server.listen(conf.port);
 io.sockets.on('connection', function(socket) {
 	socket.emit('chat', {time: new Date(), text: 'You are connected with the server!'});
 	socket.on('chat', function(data) {
-		io.sockets.emit('chat', {time: new Date(), name: data.name || 'Anonymus', text: data.text});
+		io.sockets.emit('chat', {time: new Date(), name: data.name || 'Anonymous', text: data.text});
 	});
 });
 
