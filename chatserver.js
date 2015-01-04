@@ -7,7 +7,7 @@ var conf = {"port": 8020};
 app.use("/css", express.static(__dirname + '/css'));
 
 app.get('/', function(request, response) {
-	response.sendfile(__dirname + '/html/index_chat.htm');
+	response.sendfile(__dirname + '/html/index.htm');
 });
 
 server.listen(conf.port);
