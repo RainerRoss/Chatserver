@@ -8,7 +8,7 @@ https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/IBM%20i%2
 if you have installed node.js then do the following steps to install the express and socket.io framework
 
 qsh
-cd cd /QOpenSys/QIBM/ProdData/Node/bin
+cd /QOpenSys/QIBM/ProdData/Node/bin
 npm install express
 npm install socket.io
 
@@ -22,7 +22,7 @@ e.g. /home/node/js   for the chatclient.js
 start the chatserver:
 
 qsh
-cd cd /QOpenSys/QIBM/ProdData/Node/bin
+cd /QOpenSys/QIBM/ProdData/Node/bin
 node /home/node/chatserver.js
 
 start the chatclient in your browser:
