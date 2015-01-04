@@ -29,4 +29,5 @@ start the chatclient in your browser:
 
 http://yourip:8020/
 
-
+if the port 8020 is used on your maschine please use another port
+check the port: netstat *cnn
