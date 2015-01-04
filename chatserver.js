@@ -4,7 +4,8 @@ var server = require('http').createServer(app);
 var io = require('/QOpenSys/QIBM/ProdData/Node/bin/node_modules/socket.io').listen(server);
 var conf = {"port": 8020};
 
-app.use("/css", express.static(__dirname + '/css'));
+app.use("/css", express.static(__dirname + '/css'));   // use external CSS
+app.use("/js",  express.static(__dirname + '/js'));    // use external Javascript
 
 app.get('/', function(request, response) {
 	response.sendfile(__dirname + '/html/index.htm');
