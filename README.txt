@@ -14,7 +14,7 @@ npm install socket.io
 
 create the following Directories:
 
-e.g. /home/node for the chatserver.js
+e.g. /home/node      for the chatserver.js
 e.g. /home/node/html for the index.htm
 e.g. /home/node/css  for the chatstyle.css
 e.g. /home/node/js   for the chatclient.js
