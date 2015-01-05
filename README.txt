@@ -29,5 +29,5 @@ start the chatclient in your browser:
 
 http://yourip:8020/
 
-if the port 8020 is used on your maschine please use another port and change ist in the chatserver.js
+if the port 8020 is used on your maschine please use another port and change it in the chatserver.js
 check the port on IBM i: netstat *cnn
