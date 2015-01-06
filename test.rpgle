@@ -1,4 +1,11 @@
-                                                                   
+//------------------------------------------------------------------//
+// Procedure - Get Date from DateString                             //
+// Format: 'Fri, 02 Jan 2015 15:25:22 GMT'                          //
+//------------------------------------------------------------------//
+   dcl-proc getdate export;                                           
+   dcl-pi *n           date;                                          
+           ##datstr    like(h#datstr) const;                          
+   end-pi;                                                                                                                              
    dcl-ds  dsstr       qualified;               // DateString      
             *n         char(05);                                   
             d#day      char(02);                                   
@@ -15,4 +22,10 @@
                                                                    
      dsstr    = ##datstr;                       // DateString      
      p#ind    = %lookup(dsstr.d#mon:t#month);                      
-                                                                   
+     p#month  = %editc(p#ind:'X');                                    
+     p#datstr = dsstr.d#year + '-' + p#month + '-' + dsstr.d#day;     
+     p#date   = %date(p#datstr:*iso);                                 
+     return p#date;                                                   
+                                                                      
+   end-proc;                                                          
+//------------------------------------------------------------------//                                                                  
