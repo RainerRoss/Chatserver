@@ -2,10 +2,9 @@ Chatserver
 ==========
 The Chatserver powered by IBM i needs V7R1
 
-Getting Started with Node.js on IBM i look at 
-https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/IBM%20i%20Technology%20Updates/page/Node.js
+Go [here](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/IBM%20i%20Technology%20Updates/page/Node.js) to get started with Node.js on IBM i.
 
-if you have installed node.js then do the following steps to install the express and socket.io framework
+If you have installed node.js then do the following steps to install the express and socket.io framework
 
 qsh
 cd /QOpenSys/QIBM/ProdData/Node/bin
@@ -15,15 +14,19 @@ npm install socket.io
 #Manual Install
 Create the following Directories:
 
-e.g. /home/node      for the chatserver.js
-e.g. /home/node/html for the index.htm
-e.g. /home/node/css  for the chatstyle.css
-e.g. /home/node/js   for the chatclient.js
+```
+5250> qsh
+$ mkdir -p /home/node        (for the chatserver.js)
+$ mkdir -p /home/node/html   (for the index.htm)
+$ mkdir -p /home/node/css    (for the chatstyle.css)
+$ mkdir -p /home/node/js     (for the chatclient.js)
+```
 
 #Git Clone Install
 From a PASE shell enter the following:
 
 ```
+5250> qsh
 $ git clone git@github.com:RainerRoss/Chatserver.git
 ```
 
