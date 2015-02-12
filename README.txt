@@ -12,22 +12,36 @@ cd /QOpenSys/QIBM/ProdData/Node/bin
 npm install express
 npm install socket.io
 
-create the following Directories:
+#Manual Install
+Create the following Directories:
 
 e.g. /home/node      for the chatserver.js
 e.g. /home/node/html for the index.htm
 e.g. /home/node/css  for the chatstyle.css
 e.g. /home/node/js   for the chatclient.js
 
-start the chatserver:
+#Git Clone Install
+From a PASE shell enter the following:
 
-qsh
-cd /QOpenSys/QIBM/ProdData/Node/bin
-node /home/node/chatserver.js
+```
+$ git clone git@github.com:RainerRoss/Chatserver.git
+```
 
-start the chatclient in your browser:
+Start the chatserver:
+
+```
+5250> qsh
+$ cd /QOpenSys/QIBM/ProdData/Node/bin
+$ node /home/node/chatserver.js
+```
+
+Start the chatclient in your browser:
 
 http://yourip:8020/
 
-if the port 8020 is used on your maschine please use another port and change it in the chatserver.js
-check the port on IBM i: netstat *cnn
+If the port `8020` is used on your machine please use another port and change it in the `chatserver.js`
+check the port on IBM i: 
+
+```
+5250> netstat *cnn
+```
