@@ -6,10 +6,12 @@ Go [here](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki
 
 If you have installed node.js then do the following steps to install the express and socket.io framework
 
-qsh
-cd /QOpenSys/QIBM/ProdData/Node/bin
-npm install express
-npm install socket.io
+```
+5250> qsh
+$ cd /QOpenSys/QIBM/ProdData/Node/bin
+$ npm install express
+$ npm install socket.io
+```
 
 #Manual Install
 Create the following Directories:
