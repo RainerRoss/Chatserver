@@ -14,6 +14,7 @@ Go [here](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki
 ```
 5250> qsh
 $ /QOpenSys/QIBM/ProdData/OPS/Node4/bin/nodever.sh 4
+Node.js v4 will now be used. 
 ```
 
 ##Check your Node.js version
