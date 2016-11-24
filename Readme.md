@@ -69,7 +69,7 @@ Server listening at port: 8020
 
 When the port `8020` is used on your machine use another port and change it in the `chatserver.js` script
 ```
-line 5 var conf = {"port": 8020};` 
+line 5 var conf = {"port": 8020};
 ```
 
 ##check the port on IBM i: 
