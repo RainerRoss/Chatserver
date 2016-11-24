@@ -40,3 +40,18 @@ $ mkdir -p /home/node/html (for the index.htm)
 $ mkdir -p /home/node/css  (for the chatstyle.css)
 $ mkdir -p /home/node/js   (for the chatclient.js)
 ```
+
+#Start the Node.js program on your IBM i
+
+```
+5250> qsh
+$ node /home/node/chatserver.js
+```
+
+If the port `8080` is used on your machine please use another port and change it in the `webservice.js - line 27` 
+
+check the port on IBM i: 
+
+```
+5250> netstat *cnn
+```
