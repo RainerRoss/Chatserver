@@ -16,7 +16,7 @@ Go [here](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki
 $ /QOpenSys/QIBM/ProdData/OPS/Node4/bin/nodever.sh 4
 Node.js v4 will now be used. 
 ```
-##When you have installed Node.js 6.x set Node.js to V7
+##When you have installed Node.js 6.x set Node.js to V6
 ```
 5250> qsh
 $ /QOpenSys/QIBM/ProdData/OPS/Node6/bin/nodever.sh 6
