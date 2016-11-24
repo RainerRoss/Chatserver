@@ -67,7 +67,7 @@ $ node /home/node/chatserver.js
 Server listening at port: 8020 
 ```
 
-If the port `8020` is used on your machine use another port and change it in the `chatserver.js`
+If the port `8020` is used on your machine use another port and change it in the `chatserver.js` script
 ```
 line 5 var conf = {"port": 8020};` 
 ```
