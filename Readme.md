@@ -23,12 +23,14 @@ $ /QOpenSys/QIBM/ProdData/OPS/Node6/bin/nodever.sh 6
 Node.js v6 will now be used. 
 ```
 
-##Check your Node.js version
+##Check your Node.js and Node Package Manager version
 
 ```
 5250> qsh
 $ node -v
-v6.9.1 
+v6.9.1
+$ nmp -v
+3.10.8
 ```
 
 ##Install express and socket.io with the node package manager
