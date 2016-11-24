@@ -1,4 +1,6 @@
-The webservice powered by IBM i needs V7R1 and Node.js delivered with 5733-OPS
+# IBM i chatserver
+
+The chatserver powered by IBM i needs V7R1 and Node.js delivered with 5733-OPS
 ```
 5733-OPS Option 1 	Node.js 0.x
 5733-OPS Option 5 	Node.js 4.x
@@ -18,4 +20,12 @@ $ /QOpenSys/QIBM/ProdData/OPS/Node4/bin/nodever.sh 4
 5250> qsh
 $ node -v
 for example v4.4.6  
+```
+
+#Install express and socket.io with the node package manager
+
+```
+5250> qsh
+npm install express
+npm install socket.io 
 ```
