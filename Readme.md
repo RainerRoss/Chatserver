@@ -48,7 +48,7 @@ $ mkdir -p /home/node/js   (for the chatclient.js)
 $ node /home/node/chatserver.js
 ```
 
-If the port `8080` is used on your machine please use another port and change it in the `webservice.js - line 27` 
+If the port `8020` is used on your machine please use another port and change it in the `chatserver.js - line 5` 
 
 check the port on IBM i: 
 
