@@ -7,14 +7,14 @@ The chatserver powered by IBM i needs V7R1 and Node.js delivered with 5733-OPS
 ```
 Go [here](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/IBM%20i%20Technology%20Updates/page/Node.js) to get started with Node.js on IBM i.
 
-#When you have installed Node.js 4.x set Node.js to V4
+##When you have installed Node.js 4.x set Node.js to V4
 
 ```
 5250> qsh
 $ /QOpenSys/QIBM/ProdData/OPS/Node4/bin/nodever.sh 4
 ```
 
-#Check your Node.js version
+##Check your Node.js version
 
 ```
 5250> qsh
@@ -22,7 +22,7 @@ $ node -v
 for example v4.4.6  
 ```
 
-#Install express and socket.io with the node package manager
+##Install express and socket.io with the node package manager
 
 ```
 5250> qsh
@@ -30,7 +30,7 @@ $ npm install express
 $ npm install socket.io 
 ```
 
-#Manual Install
+##Manual Install
 Create the following Directories
 
 ```
@@ -41,14 +41,14 @@ $ mkdir -p /home/node/css  (for the chatstyle.css)
 $ mkdir -p /home/node/js   (for the chatclient.js)
 ```
 
-#Setup the index.htm script to the ip address of your IBM i
+##Setup the index.htm script to the ip address of your IBM i
 
 ```
 line 6  <link rel="stylesheet" href="http://yourip:8020/css/chatstyle.css" /> 
 line 18 <script type="text/javascript" src="http://yourip:8020/js/chatclient.js"></script>
 ```
 
-#Start the Node.js program on your IBM i
+##Start the Node.js program on your IBM i
 
 ```
 5250> qsh
@@ -64,7 +64,7 @@ check the port on IBM i:
 5250> netstat *cnn
 ```
 
-#Start the chatclient
+##Start the chatclient
 
 ```
 Open the browser of your choice and type http://yourip:8020
