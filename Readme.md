@@ -29,3 +29,14 @@ for example v4.4.6
 npm install express
 npm install socket.io 
 ```
+
+#Manual Install
+Create the following Directories
+
+```
+5250> qsh
+$ mkdir -p /home/node      (for the chatserver.js)
+$ mkdir -p /home/node/html (for the index.htm)
+$ mkdir -p /home/node/css  (for the chatstyle.css)
+$ mkdir -p /home/node/js   (for the chatclient.js)
+```
