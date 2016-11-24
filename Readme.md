@@ -1,6 +1,12 @@
 # IBM i chatserver
 Go [here](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/IBM%20i%20Technology%20Updates/page/Node.js) to get started with Node.js on IBM i.
 
+The chatserver powered by IBM i needs V7R1 and Node.js delivered with 5733-OPS
+```
+5733-OPS Option 1 	Node.js 0.x
+5733-OPS Option 5 	Node.js 4.x
+```
+
 ##When you have installed Node.js 4.x set Node.js to V4
 
 ```
