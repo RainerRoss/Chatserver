@@ -63,3 +63,9 @@ check the port on IBM i:
 ```
 5250> netstat *cnn
 ```
+
+#Start the chatclient
+
+```
+Open the browser of your choice and type http://yourip:8020
+```
