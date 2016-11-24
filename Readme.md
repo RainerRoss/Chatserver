@@ -29,7 +29,7 @@ Node.js v6 will now be used.
 5250> qsh
 $ node -v
 v6.9.1
-$ nmp -v
+$ npm -v
 3.10.8
 ```
 
