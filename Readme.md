@@ -46,6 +46,7 @@ $ mkdir -p /home/node/js   (for the chatclient.js)
 ```
 5250> qsh
 $ node /home/node/chatserver.js
+Server listening at port: 8020 
 ```
 
 If the port `8020` is used on your machine please use another port and change it in the `chatserver.js - line 5` 
