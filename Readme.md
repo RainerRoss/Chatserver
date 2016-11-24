@@ -52,7 +52,7 @@ $ mkdir -p /home/node/css  (for the chatstyle.css)
 $ mkdir -p /home/node/js   (for the chatclient.js)
 ```
 
-##Setup the index.htm script to the ip address of your IBM i
+##Setup the index.htm script to the IP address of your IBM i
 
 ```
 line 6  <link rel="stylesheet" href="http://yourip:8020/css/chatstyle.css" /> 
