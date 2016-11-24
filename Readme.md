@@ -33,7 +33,7 @@ $ nmp -v
 3.10.8
 ```
 
-##Install express and socket.io with the node package manager
+##Install express and socket.io with node package manager
 
 ```
 5250> qsh
