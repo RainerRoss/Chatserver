@@ -1,7 +1,7 @@
 # IBM i chatserver
-Go [here](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/IBM%20i%20Technology%20Updates/page/Node.js) to get started with Node.js on IBM i.
-
 ![capture20161124120207654](https://cloud.githubusercontent.com/assets/10383523/20596586/8cef6ff8-b23f-11e6-9e84-5fe6ab2854f9.png)
+
+Go [here](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/IBM%20i%20Technology%20Updates/page/Node.js) to get started with Node.js on IBM i.
 
 ##The chatserver powered by IBM i needs V7R1 and Node.js
 ```
