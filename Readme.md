@@ -26,8 +26,8 @@ for example v4.4.6
 
 ```
 5250> qsh
-npm install express
-npm install socket.io 
+$ npm install express
+$ npm install socket.io 
 ```
 
 #Manual Install
