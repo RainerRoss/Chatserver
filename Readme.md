@@ -42,7 +42,7 @@ $ npm install socket.io
 ```
 
 ##Manual Install
-Create the following Directories
+Create the following Directories and put the files in the directories
 
 ```
 5250> qsh
