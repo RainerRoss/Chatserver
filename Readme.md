@@ -7,14 +7,20 @@ Go [here](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki
 ```
 5733-OPS Option 1 	Node.js 0.x
 5733-OPS Option 5 	Node.js 4.x
+5733-OPS Option 10 	Node.js 6.x
 ```
 
 ##When you have installed Node.js 4.x set Node.js to V4
-
 ```
 5250> qsh
 $ /QOpenSys/QIBM/ProdData/OPS/Node4/bin/nodever.sh 4
 Node.js v4 will now be used. 
+```
+##When you have installed Node.js 6.x set Node.js to V7
+```
+5250> qsh
+$ /QOpenSys/QIBM/ProdData/OPS/Node6/bin/nodever.sh 6
+Node.js v6 will now be used. 
 ```
 
 ##Check your Node.js version
@@ -22,7 +28,7 @@ Node.js v4 will now be used.
 ```
 5250> qsh
 $ node -v
-for example v4.4.6  
+v6.9.1 
 ```
 
 ##Install express and socket.io with the node package manager
