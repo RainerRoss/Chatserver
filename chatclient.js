@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(){ 
 	var socket = io.connect();
 	socket.on('chat', function(data) {					// Add chat data to content
 		$('#content').append(
