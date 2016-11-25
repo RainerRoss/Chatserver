@@ -36,4 +36,4 @@ String.prototype.lpad = function(padString, length) {	// add leading padding cha
 	}
 	return string;
 };
-	
+	 
