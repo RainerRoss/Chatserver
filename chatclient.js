@@ -32,7 +32,7 @@ function getTime(data) {								// get time format HH:MM:SS
 String.prototype.lpad = function(padString, length) {	// add leading padding characters
 	var string = this;
 	while (string.length < length) {
-		string = padString + string;
+	    string = padString + string;
 	}
 	return string;
 };
