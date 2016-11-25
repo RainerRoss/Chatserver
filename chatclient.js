@@ -1,7 +1,7 @@
-$(document).ready(function(){ 
-	var socket = io.connect();
-	socket.on('chat', function(data) {					// Add chat data to content
-		$('#content').append(
+$(document).ready(function(){
+var socket = io.connect();
+socket.on('chat', function(data) {					// Add chat data to content
+$('#content').append(
 				$('<li></li>').append(
 						$('<span>').text('[' + getTime(data) + '] '),
 						$('<b>').text(typeof(data.name) != 'undefined' ? data.name + ': ' : ''),
