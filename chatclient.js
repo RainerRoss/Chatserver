@@ -25,8 +25,8 @@ $(document).ready(function(){
 
 function getTime(data) {							// get time format HH:MM:SS
 	var date = new Date(data.time);
-	return	date.getHours().toString().lpad("0", 2)		+ ":" + 
-		date.getMinutes().toString().lpad("0", 2)	+ ":" + 
+	return	date.getHours().toString().lpad("0", 2)	   + ":" + 
+		date.getMinutes().toString().lpad("0", 2)  + ":" + 
 		date.getSeconds().toString().lpad("0", 2);
 }
 String.prototype.lpad = function(padString, length) {	// add leading padding characters
