@@ -59,7 +59,7 @@ line 6  <link rel="stylesheet" href="http://yourip:8020/css/chatstyle.css" />
 line 18 <script type="text/javascript" src="http://yourip:8020/js/chatclient.js"></script>
 ```
 
-##Start the Node.js program on your IBM i
+##Start the Node.js chatserver program on your IBM i
 
 ```
 5250> qsh
