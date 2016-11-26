@@ -7,7 +7,7 @@ $(document).ready(function(){
 			$('<b>').text(typeof(data.name) != 'undefined' ? data.name + ': ' : ''),
 			$('<span>').text(data.text))
 		);	
-		window.scrollTo(0,document.body.scrollHeight);	// Scroll to bottom      
+		window.scrollTo(0,document.body.scrollHeight);			// Scroll to bottom      
 	});
 	function send(){							// Send data to server 
 		var name = $('#name').val();
