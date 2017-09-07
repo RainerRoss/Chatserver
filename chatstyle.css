@@ -40,11 +40,11 @@ input{
 }
 
 .button {
-        height: 22px;
-        width: 160px;
-        font-family: Verdana,sans-serif;
-        font-size: 15px;
-        color: black;
-        border: 1px solid grey;        
-        cursor: pointer;
+    height: 22px;
+    width: 160px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    color: black;
+    border: 1px solid grey;        
+    cursor: pointer;
 }
